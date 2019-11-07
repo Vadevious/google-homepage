@@ -2,3 +2,19 @@
     position: absolute;
     top: 500px;
 }
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+}
+li.left {
+    float: left;
+    padding: 8px 10px;
+}
+li.right {
+    float: right;
+    padding: 8px 10px;
+    text-align: right;
+}
