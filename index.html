@@ -2,23 +2,46 @@
 <html>
 <link href="./style.css" type="text/css" rel="stylesheet">
 <head>
-<title>Vadim's Google! (Vadoogle)</title>    
+  <title>Vadoogle</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">     
 </head>
-<body></body>
-<div class="nav">
-<ul>
-    <li class="left"><a href="">About</a></li>
-    <li class="left"><a href="">Store</a></li>
-    <li class="right"><a href="">Gmail</a></li>
-    <li class="right"><a href="">Images</a></li>
-</ul>
-</div>
-<form action="/searchform.html" method="GET">
-
+<body>
+<!--Top Navigation Bar-->
+  <div class="topnav">
+    <ul>
+      <li class="topleft"><a href="">About</a></li>
+      <li class="topleft"><a href="">Store</a></li>
+      <li class="topright"><a href="">Images</a></li>
+      <li class="topright"><a href="">Gmail</a></li>
+    </ul>
+  </div>
+<!--Logo-->
+    <img src="./images/logo.png" alt=Google-Logo class="logo"/>
+<!--Search Form-->
+<div>
+<form name="search" action="/searchform.html" method="GET">
+  <input type="text" name="search" class="search">
+  <div class="button">
+      <button type="submit">Google Search</button>
+  </div>
+  <div class="button">
+      <button type="submit">I'm Feeling Lucky</button>
+  </div>
 </form>
-<div class="logo">
-    <img src="./images/logo.png" alt=Google Logo/>
 </div>
+<footer>
+<!--Bottom Navigation Bar-->
+  <div class="bottomnav">
+    <ul>
+      <li class="bottomleft"><a href="">Advertising</a></li>
+      <li class="bottomleft"><a href="">Business</a></li>
+      <li class="bottomleft"><a href="">How Search works</a></li>
+      <li class="bottomright"><a href="">Privacy</a></li>
+      <li class="bottomright"><a href="">Terms</a></li>
+      <li class="bottomright"><a href="">Settings</a></li>
+    </ul>
+  </div>
+</footer>
 
 </body>
 
